@@ -1,27 +1,86 @@
 /* Offwhite #f9e7d7 */
 body {
-   background-color: #f9e7d7; 
-   font-family: neighbor, sans-serif;
+   font-family: "arboria", sans-serif;
    font-weight: 500;
    font-style: normal;
 }
-header {
-    margin: 30px;
-    padding: 40px;
-    background-color: #5962ff;
+header{
+    
+    padding: 20px;
     
 }
-
-nav {
+.header-sec{
     display: flex;
-    gap: 30px;
-    align-items: center;
-    padding-right: 20px;
+    justify-content: space-around;
+    padding: 0;
+
+}
+.header-left{
+
+}
+.header-menu-item{
+    font-size: 25px;
+}
+ul{
+    display: flex; 
+    padding: 0;
+    gap: 40px;
+ 
+}
+a{
+    color:black;   
+}
+li{
+    list-style: none;
+   
+}
+a{
+    text-decoration: none;
+}
+.user-logo-center img{ 
+}
+.user-logo-center{
+    text-align: center;
 }
 
-a {
-    color: #f9e7d7 ;
-    text-decoration: none; 
-    font-size: 30px;
+.welcome-sec{
+    align-content: center;
+    padding: 200px;
+    
 
+}
+.welcome-text{
+    text-align: center;
+    margin: auto;
+}
+span{
+    font-size: 40px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: none;
+    text-align: center;
+   
+}
+button:hover{
+    background-color: rgb(188, 33, 208);
+}
+.welcome-sec-button{
+    text-align: center;
+    margin: 40px;
+}
+
+.section-two img{
+    width: 100%;
+    border-radius: 20px;  
+}
+.section-two-photo-container{
+    text-align: center; 
+    display: flex;
+    gap: 30px;
+    padding: 50px;
 }
