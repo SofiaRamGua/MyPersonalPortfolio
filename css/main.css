@@ -39,6 +39,11 @@ li{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline 5px ;
+    color: rgb(170, 0, 255);
+
+}
 .user-logo-center img{ 
 }
 .user-logo-center{
