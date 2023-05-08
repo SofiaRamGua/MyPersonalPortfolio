@@ -57,8 +57,6 @@ a:hover{
     background-color: rgb(244, 241, 225);
     border-radius: 20px;
     margin: 50px;
-    
-
 }
 .welcome-text{
     text-align: center;
@@ -193,4 +191,49 @@ footer .footer-link{
 .footer-credits{
     text-align: right;
 
+}
+
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+
+    }
+    .primary-button{
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        color: white;
+        background-color: #4848f3;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+    }
+    .welcome-sec{
+        align-content: center;
+        padding: 30px; 
+        background-color: rgb(244, 241, 225);
+        border-radius: 20px;
+        margin: 30px;
+    }
+    .section-three-photo-container{
+        text-align: center; 
+        padding: 50px;
+        display: grid;
+        grid-gap: 1rem;
+    }
+    .section-three img{
+        width: 100%;
+        border-radius: 10px;  
+    }
+    .work-row1{
+        display: grid;
+    }
+    .contact-sec1{
+        padding: 30px;
+        font-size: 20px;
+    }
 }
