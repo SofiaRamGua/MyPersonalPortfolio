@@ -3,7 +3,7 @@ body {
    font-family: "arboria", sans-serif;
    font-weight: 500;
    font-style: normal;
-   background-color: rgb(244, 241, 225);
+   background-color: #f4f1e1;
 }
 header{
     padding: 30px;
@@ -15,9 +15,6 @@ header{
     align-items: center;
     display: flex;
     justify-content: space-evenly;
-
-}
-.header-left{
 
 }
 .header-menu-item{
@@ -42,9 +39,10 @@ a{
 }
 a:hover{
     
-    text-decoration: underline 5px;
-    color: #4848f3;
-
+    text-decoration: underline 3px #4848f3;
+}
+.nav-select{
+    text-decoration: underline 3px #4848f3;
 }
 .user-logo-center img{ 
     width: 20%;
@@ -55,7 +53,7 @@ a:hover{
 
 .welcome-sec{
     align-content: center;
-    padding: 200px; 
+    padding: 100px; 
     background-color: rgb(244, 241, 225);
     border-radius: 20px;
     margin: 50px;
@@ -74,13 +72,13 @@ span{
     height: 50px;
     border-radius: 30px;
     color: white;
-    background-color: rgb(65, 65, 65);
+    background-color: #4848f3;
     border: none;
     text-align: center;
    
 }
 .primary-button:hover{
-    background-color: #4848f3;
+    background-color: rgb(65, 65, 65);
 }
 .welcome-sec-button{
     text-align: center;
@@ -100,27 +98,30 @@ span{
 .sec-three-button{
     text-align: center;
     margin: 40px;
-
 }
 .secondary-button:hover{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: #4848f3;
+    color: #f4f1e1;
 }
 .secondary-button{
     width: 150px;
     height: 50px;
+    border: 3px solid #4848f3;
     border-radius: 30px;
-    color: rgb(65, 65, 65);
-    background-color: rgb(255, 255, 255);
-    color: rgb(65, 65, 65);
+    color: #4848f3;
+    background-color: #f4f1e1;
     text-align: center;
 
 }
 h2{
     font-size: 30px;
-    padding-left: 50px;
     text-align: center;
-    color: rgb(244, 241, 225);
+    color: rgb(65, 65, 65);
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(65, 65, 65);
 }
 .work-row1 img{
     width: 100%;
@@ -149,6 +150,47 @@ h2{
 .contact-container{
     text-align: center;
 }
+.contact-container a{
+    font-size: 20px;
+}
+
+strong{
+    color: #4848f3;
+}
+.socials-wrap{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 300px;
+}
+.contact-sec1{
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 200px;
+}
+p{
+    color: rgb(65, 65, 65);
+}
+.about-contact{
+    color: #4848f3;
+}
 footer{
-    background-color: #4848f3;
+    background-color: #414141;
+    height: 100%;
+}
+footer p{
+    color: #f4f1e1;    
+}
+footer .footer-link{
+    color: #f4f1e1;
+    text-decoration: underline 2px #4848f3;
+
+}
+.footer-wrap{
+    padding: 30px;
+}
+.footer-credits{
+    text-align: right;
+
 }
