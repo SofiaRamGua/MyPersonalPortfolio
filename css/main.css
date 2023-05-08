@@ -171,9 +171,15 @@ footer{
 footer p{
     color: #f4f1e1;    
 }
+.footer-social a{
+    text-decoration: none;
+}
+.footer-link:hover{
+    text-decoration: underline 2px #4848f3;
+}
 footer .footer-link{
     color: #f4f1e1;
-    text-decoration: underline 2px #4848f3;
+    text-decoration: underline 2px #f4f1e1;
 
 }
 .footer-wrap{
