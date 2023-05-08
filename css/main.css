@@ -66,10 +66,13 @@ span{
     color: white;
     background-color: #4848f3;
     border: none;
-    text-align: center;  
+    text-align: center; 
 }
 .primary-button:hover{
     background-color: rgb(65, 65, 65);
+}
+.welcome-sec-button a{
+    text-decoration: none;
 }
 .welcome-sec-button{
     text-align: center;
